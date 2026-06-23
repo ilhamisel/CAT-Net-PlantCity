@@ -1,0 +1,307 @@
+{
+  "model": "efficientnet_b0",
+  "split_mode": "clean",
+  "split_info": {
+    "mode": "clean",
+    "source": "originals from Images/test (non-augmented)",
+    "ratios": "70/15/15 stratified",
+    "seed": 42,
+    "train_size": 401,
+    "val_size": 86,
+    "test_size": 86,
+    "train_per_class": [
+      186,
+      144,
+      71
+    ],
+    "val_per_class": [
+      40,
+      31,
+      15
+    ],
+    "test_per_class": [
+      39,
+      31,
+      16
+    ],
+    "classes": [
+      "Apple Brown_spot",
+      "Apple Normal",
+      "Apple black_spot"
+    ],
+    "class_weights": [
+      0.7186379928315412,
+      0.9282407407407407,
+      1.8826291079812207
+    ]
+  },
+  "num_params": 4011391,
+  "best_val_f1_macro": 1.0,
+  "final_metrics": {
+    "accuracy": 0.9767441860465116,
+    "precision_macro": 0.9708333333333333,
+    "recall_macro": 0.9684139784946236,
+    "f1_macro": 0.9694827765096493,
+    "precision_weighted": 0.9770348837209303,
+    "recall_weighted": 0.9767441860465116,
+    "f1_weighted": 0.9767224696815415,
+    "per_class_precision": [
+      0.975,
+      1.0,
+      0.9375
+    ],
+    "per_class_recall": [
+      1.0,
+      0.967741935483871,
+      0.9375
+    ],
+    "per_class_f1": [
+      0.9873417721518988,
+      0.9836065573770492,
+      0.9375
+    ],
+    "per_class_support": [
+      39,
+      31,
+      16
+    ],
+    "confusion_matrix": [
+      [
+        39,
+        0,
+        0
+      ],
+      [
+        0,
+        30,
+        1
+      ],
+      [
+        1,
+        0,
+        15
+      ]
+    ],
+    "auc_ovr_macro": 0.999702380952381,
+    "classification_report": "                  precision    recall  f1-score   support\n\nApple Brown_spot     0.9750    1.0000    0.9873        39\n    Apple Normal     1.0000    0.9677    0.9836        31\nApple black_spot     0.9375    0.9375    0.9375        16\n\n        accuracy                         0.9767        86\n       macro avg     0.9708    0.9684    0.9695        86\n    weighted avg     0.9770    0.9767    0.9767        86\n"
+  },
+  "epoch_log": [
+    {
+      "epoch": 1,
+      "train_loss": 2.544268766543514,
+      "train_acc": 0.4613466334164589,
+      "val_acc": 0.8488372093023255,
+      "val_f1_macro": 0.8359725005294626,
+      "val_auc": 0.9721987370694479,
+      "lr": 0.00016153846153846153,
+      "time_sec": 83.34820604324341
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.6662145114301743,
+      "train_acc": 0.9002493765586035,
+      "val_acc": 0.9418604651162791,
+      "val_f1_macro": 0.9360811504879302,
+      "val_auc": 0.9951580254473701,
+      "lr": 0.0003,
+      "time_sec": 3.342200517654419
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.5541604439219334,
+      "train_acc": 0.9002493765586035,
+      "val_acc": 0.8953488372093024,
+      "val_f1_macro": 0.8778460278460279,
+      "val_auc": 0.9958826631285297,
+      "lr": 0.0002986028919054496,
+      "time_sec": 4.477443695068359
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.47376703874131393,
+      "train_acc": 0.9301745635910225,
+      "val_acc": 0.9186046511627907,
+      "val_f1_macro": 0.9025464505144719,
+      "val_auc": 0.9973175944898284,
+      "lr": 0.0002944375931021699,
+      "time_sec": 4.040397882461548
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.5053782935748968,
+      "train_acc": 0.9102244389027432,
+      "val_acc": 0.9302325581395349,
+      "val_f1_macro": 0.9125514403292181,
+      "val_auc": 0.992221059437789,
+      "lr": 0.0002875816952258179,
+      "time_sec": 4.348439931869507
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.3715326875968467,
+      "train_acc": 0.9675810473815462,
+      "val_acc": 0.9418604651162791,
+      "val_f1_macro": 0.9323271223142853,
+      "val_auc": 0.997789352745598,
+      "lr": 0.0002781629106819733,
+      "time_sec": 3.2771568298339844
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.4254738511587319,
+      "train_acc": 0.940149625935162,
+      "val_acc": 0.8372093023255814,
+      "val_f1_macro": 0.8155787843592721,
+      "val_auc": 0.9861281139027914,
+      "lr": 0.00026635669360566296,
+      "time_sec": 2.860351800918579
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.3965017672191534,
+      "train_acc": 0.9152119700748129,
+      "val_acc": 0.9767441860465116,
+      "val_f1_macro": 0.9740209743793974,
+      "val_auc": 0.9974189876961345,
+      "lr": 0.0002523829714827981,
+      "time_sec": 4.200550556182861
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.36306645934867143,
+      "train_acc": 0.9551122194513716,
+      "val_acc": 0.9534883720930233,
+      "val_f1_macro": 0.9425932376123947,
+      "val_auc": 0.9990511708954907,
+      "lr": 0.00023650204831723005,
+      "time_sec": 3.167548894882202
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.34483894371332374,
+      "train_acc": 0.9576059850374065,
+      "val_acc": 0.9418604651162791,
+      "val_f1_macro": 0.9385724000836996,
+      "val_auc": 0.9929133775979578,
+      "lr": 0.0002190097556596728,
+      "time_sec": 4.547797679901123
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.3194024616346098,
+      "train_acc": 0.9551122194513716,
+      "val_acc": 0.9883720930232558,
+      "val_f1_macro": 0.9904202927882345,
+      "val_auc": 0.9988700114752008,
+      "lr": 0.0002002319418256479,
+      "time_sec": 3.319667100906372
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.29751455219011946,
+      "train_acc": 0.972568578553616,
+      "val_acc": 0.9651162790697675,
+      "val_f1_macro": 0.9581022877868453,
+      "val_auc": 1.0,
+      "lr": 0.00018051840195789506,
+      "time_sec": 4.346644639968872
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.24807922597835189,
+      "train_acc": 0.9800498753117207,
+      "val_acc": 0.9651162790697675,
+      "val_f1_macro": 0.9581022877868453,
+      "val_auc": 1.0,
+      "lr": 0.00016023636200470065,
+      "time_sec": 3.2248337268829346
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.24365552847373514,
+      "train_acc": 0.9750623441396509,
+      "val_acc": 0.9534883720930233,
+      "val_f1_macro": 0.9425932376123947,
+      "val_auc": 1.0,
+      "lr": 0.00013976363799529936,
+      "time_sec": 4.453455686569214
+    },
+    {
+      "epoch": 15,
+      "train_loss": 0.2673319483041169,
+      "train_acc": 0.9750623441396509,
+      "val_acc": 1.0,
+      "val_f1_macro": 1.0,
+      "val_auc": 1.0,
+      "lr": 0.00011948159804210495,
+      "time_sec": 3.1619350910186768
+    },
+    {
+      "epoch": 16,
+      "train_loss": 0.24303442024233335,
+      "train_acc": 0.9850374064837906,
+      "val_acc": 1.0,
+      "val_f1_macro": 1.0,
+      "val_auc": 1.0,
+      "lr": 9.976805817435207e-05,
+      "time_sec": 2.861095905303955
+    },
+    {
+      "epoch": 17,
+      "train_loss": 0.23126379064193686,
+      "train_acc": 0.9775561097256857,
+      "val_acc": 1.0,
+      "val_f1_macro": 1.0,
+      "val_auc": 1.0,
+      "lr": 8.099024434032717e-05,
+      "time_sec": 4.080431222915649
+    },
+    {
+      "epoch": 18,
+      "train_loss": 0.2430065465984202,
+      "train_acc": 0.9850374064837906,
+      "val_acc": 1.0,
+      "val_f1_macro": 1.0,
+      "val_auc": 1.0,
+      "lr": 6.349795168276994e-05,
+      "time_sec": 3.1963629722595215
+    },
+    {
+      "epoch": 19,
+      "train_loss": 0.22806073134379493,
+      "train_acc": 0.9875311720698254,
+      "val_acc": 1.0,
+      "val_f1_macro": 1.0,
+      "val_auc": 1.0,
+      "lr": 4.761702851720191e-05,
+      "time_sec": 4.34247612953186
+    },
+    {
+      "epoch": 20,
+      "train_loss": 0.20529871261179297,
+      "train_acc": 0.9950124688279302,
+      "val_acc": 1.0,
+      "val_f1_macro": 1.0,
+      "val_auc": 1.0,
+      "lr": 3.364330639433701e-05,
+      "time_sec": 3.2062573432922363
+    },
+    {
+      "epoch": 21,
+      "train_loss": 0.22706967547647378,
+      "train_acc": 0.9750623441396509,
+      "val_acc": 1.0,
+      "val_f1_macro": 1.0,
+      "val_auc": 1.0,
+      "lr": 2.1837089318026714e-05,
+      "time_sec": 4.305999755859375
+    }
+  ],
+  "epochs_trained": 21,
+  "classes": [
+    "Apple Brown_spot",
+    "Apple Normal",
+    "Apple black_spot"
+  ],
+  "checkpoint": "C:\\Users\\ilhami\\Desktop\\Deep2026\\PlantCity A Comprehensive Image Based on Multi Cro\\PlantCity A Comprehensive Image Based on Multi Cro\\experiments\\results\\checkpoints\\efficientnet_b0_clean_best.pt"
+}

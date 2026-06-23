@@ -1,0 +1,193 @@
+model,class,fruit,precision,recall,f1,support
+resnet50,Apple Brown_spot,Apple,1.0,1.0,1.0,40
+resnet50,Apple Normal,Apple,1.0,0.967741935483871,0.9836065573770492,31
+resnet50,Apple black_spot,Apple,0.8823529411764706,1.0,0.9375,15
+resnet50,Apricot Normal,Apricot,0.9615384615384616,1.0,0.9803921568627451,25
+resnet50,Apricot blight leaf disease,Apricot,0.8571428571428571,0.9230769230769231,0.8888888888888888,13
+resnet50,Apricot shot_hole,Apricot,0.96875,1.0,0.9841269841269841,31
+resnet50,Cherry Leaf Scorch,Cherry,1.0,0.9767441860465116,0.9882352941176471,43
+resnet50,Cherry Normal leaf,Cherry,0.9444444444444444,0.8947368421052632,0.918918918918919,19
+resnet50,Cherry brown_spot,Cherry,1.0,0.972972972972973,0.9863013698630136,37
+resnet50,Cherry purple leaf spot,Cherry,1.0,1.0,1.0,36
+resnet50,Cherry_shot hole disease,Cherry,0.9375,0.9375,0.9375,16
+resnet50,Fig Blight_leaf disease,Fig,0.8666666666666667,0.896551724137931,0.8813559322033898,29
+resnet50,Fig Brown spot,Fig,0.9333333333333333,0.875,0.9032258064516129,16
+resnet50,Fig normal leaf,Fig,1.0,1.0,1.0,22
+resnet50,Fig_rust leaf,Fig,0.8333333333333334,0.8333333333333334,0.8333333333333334,18
+resnet50,Grape Anthracnose leaf,Grape,0.875,0.9210526315789473,0.8974358974358975,38
+resnet50,Grape Brown spot leaf,Grape,0.9090909090909091,0.8333333333333334,0.8695652173913043,24
+resnet50,Grape Downy mildew leaf,Grape,0.8,0.8695652173913043,0.8333333333333334,23
+resnet50,Grape Mites_leaf disease,Grape,1.0,1.0,1.0,18
+resnet50,Grape Normal_leaf,Grape,1.0,0.9642857142857143,0.9818181818181818,56
+resnet50,Grape Powdery_mildew leaf,Grape,0.8863636363636364,0.8666666666666667,0.8764044943820225,45
+resnet50,Grape shot hole leaf disease,Grape,0.9696969696969697,1.0,0.9846153846153847,32
+resnet50,Lokat Normal leaf,Loquat,1.0,1.0,1.0,19
+resnet50,lokat Leaf_spot,Loquat,0.967741935483871,1.0,0.9836065573770492,30
+resnet50,Pear Black spot _ leaf disease,Pear,1.0,0.9705882352941176,0.9850746268656716,34
+resnet50,Pear Normal _leaf,Pear,1.0,1.0,1.0,29
+resnet50,Pear fire blight,Pear,1.0,1.0,1.0,14
+resnet50,Walnut Anthracnose_leaf disease,Walnut,1.0,1.0,1.0,25
+resnet50,Walnut Blotch_leaf disease,Walnut,0.9803921568627451,0.9803921568627451,0.9803921568627451,51
+resnet50,Walnut Normal_leaf,Walnut,1.0,1.0,1.0,27
+resnet50,Walnut Shot_hole,Walnut,0.9428571428571428,0.9428571428571428,0.9428571428571428,35
+resnet50,Walnut leaf gall mite,Walnut,0.9230769230769231,0.8571428571428571,0.8888888888888888,14
+densenet121,Apple Brown_spot,Apple,1.0,1.0,1.0,40
+densenet121,Apple Normal,Apple,1.0,0.967741935483871,0.9836065573770492,31
+densenet121,Apple black_spot,Apple,0.8823529411764706,1.0,0.9375,15
+densenet121,Apricot Normal,Apricot,0.9615384615384616,1.0,0.9803921568627451,25
+densenet121,Apricot blight leaf disease,Apricot,0.8666666666666667,1.0,0.9285714285714286,13
+densenet121,Apricot shot_hole,Apricot,1.0,1.0,1.0,31
+densenet121,Cherry Leaf Scorch,Cherry,1.0,0.9767441860465116,0.9882352941176471,43
+densenet121,Cherry Normal leaf,Cherry,0.9411764705882353,0.8421052631578947,0.8888888888888888,19
+densenet121,Cherry brown_spot,Cherry,1.0,1.0,1.0,37
+densenet121,Cherry purple leaf spot,Cherry,1.0,1.0,1.0,36
+densenet121,Cherry_shot hole disease,Cherry,0.8888888888888888,1.0,0.9411764705882353,16
+densenet121,Fig Blight_leaf disease,Fig,0.96,0.8275862068965517,0.8888888888888888,29
+densenet121,Fig Brown spot,Fig,0.9375,0.9375,0.9375,16
+densenet121,Fig normal leaf,Fig,1.0,1.0,1.0,22
+densenet121,Fig_rust leaf,Fig,0.8125,0.7222222222222222,0.7647058823529411,18
+densenet121,Grape Anthracnose leaf,Grape,0.7755102040816326,1.0,0.8735632183908046,38
+densenet121,Grape Brown spot leaf,Grape,0.84,0.875,0.8571428571428571,24
+densenet121,Grape Downy mildew leaf,Grape,0.9047619047619048,0.8260869565217391,0.8636363636363636,23
+densenet121,Grape Mites_leaf disease,Grape,1.0,1.0,1.0,18
+densenet121,Grape Normal_leaf,Grape,1.0,0.9107142857142857,0.9532710280373832,56
+densenet121,Grape Powdery_mildew leaf,Grape,0.9285714285714286,0.8666666666666667,0.896551724137931,45
+densenet121,Grape shot hole leaf disease,Grape,0.9411764705882353,1.0,0.9696969696969697,32
+densenet121,Lokat Normal leaf,Loquat,0.95,1.0,0.9743589743589743,19
+densenet121,lokat Leaf_spot,Loquat,1.0,0.9666666666666667,0.9830508474576272,30
+densenet121,Pear Black spot _ leaf disease,Pear,1.0,0.9705882352941176,0.9850746268656716,34
+densenet121,Pear Normal _leaf,Pear,0.9666666666666667,1.0,0.9830508474576272,29
+densenet121,Pear fire blight,Pear,1.0,1.0,1.0,14
+densenet121,Walnut Anthracnose_leaf disease,Walnut,1.0,0.96,0.9795918367346939,25
+densenet121,Walnut Blotch_leaf disease,Walnut,1.0,1.0,1.0,51
+densenet121,Walnut Normal_leaf,Walnut,1.0,1.0,1.0,27
+densenet121,Walnut Shot_hole,Walnut,0.9428571428571428,0.9428571428571428,0.9428571428571428,35
+densenet121,Walnut leaf gall mite,Walnut,0.8571428571428571,0.8571428571428571,0.8571428571428571,14
+efficientnet_b0,Apple Brown_spot,Apple,1.0,1.0,1.0,40
+efficientnet_b0,Apple Normal,Apple,1.0,0.967741935483871,0.9836065573770492,31
+efficientnet_b0,Apple black_spot,Apple,0.9375,1.0,0.967741935483871,15
+efficientnet_b0,Apricot Normal,Apricot,1.0,1.0,1.0,25
+efficientnet_b0,Apricot blight leaf disease,Apricot,0.8571428571428571,0.9230769230769231,0.8888888888888888,13
+efficientnet_b0,Apricot shot_hole,Apricot,1.0,1.0,1.0,31
+efficientnet_b0,Cherry Leaf Scorch,Cherry,0.9772727272727273,1.0,0.9885057471264368,43
+efficientnet_b0,Cherry Normal leaf,Cherry,1.0,0.9473684210526315,0.972972972972973,19
+efficientnet_b0,Cherry brown_spot,Cherry,1.0,0.972972972972973,0.9863013698630136,37
+efficientnet_b0,Cherry purple leaf spot,Cherry,1.0,1.0,1.0,36
+efficientnet_b0,Cherry_shot hole disease,Cherry,0.9411764705882353,1.0,0.9696969696969697,16
+efficientnet_b0,Fig Blight_leaf disease,Fig,0.9629629629629629,0.896551724137931,0.9285714285714286,29
+efficientnet_b0,Fig Brown spot,Fig,1.0,0.9375,0.967741935483871,16
+efficientnet_b0,Fig normal leaf,Fig,1.0,1.0,1.0,22
+efficientnet_b0,Fig_rust leaf,Fig,0.9,1.0,0.9473684210526315,18
+efficientnet_b0,Grape Anthracnose leaf,Grape,0.8409090909090909,0.9736842105263158,0.9024390243902439,38
+efficientnet_b0,Grape Brown spot leaf,Grape,0.9565217391304348,0.9166666666666666,0.9361702127659575,24
+efficientnet_b0,Grape Downy mildew leaf,Grape,0.9090909090909091,0.8695652173913043,0.8888888888888888,23
+efficientnet_b0,Grape Mites_leaf disease,Grape,1.0,1.0,1.0,18
+efficientnet_b0,Grape Normal_leaf,Grape,1.0,0.9464285714285714,0.9724770642201835,56
+efficientnet_b0,Grape Powdery_mildew leaf,Grape,0.9318181818181818,0.9111111111111111,0.9213483146067416,45
+efficientnet_b0,Grape shot hole leaf disease,Grape,1.0,1.0,1.0,32
+efficientnet_b0,Lokat Normal leaf,Loquat,1.0,1.0,1.0,19
+efficientnet_b0,lokat Leaf_spot,Loquat,1.0,1.0,1.0,30
+efficientnet_b0,Pear Black spot _ leaf disease,Pear,1.0,1.0,1.0,34
+efficientnet_b0,Pear Normal _leaf,Pear,1.0,1.0,1.0,29
+efficientnet_b0,Pear fire blight,Pear,1.0,1.0,1.0,14
+efficientnet_b0,Walnut Anthracnose_leaf disease,Walnut,1.0,1.0,1.0,25
+efficientnet_b0,Walnut Blotch_leaf disease,Walnut,1.0,0.9803921568627451,0.9900990099009901,51
+efficientnet_b0,Walnut Normal_leaf,Walnut,0.9642857142857143,1.0,0.9818181818181818,27
+efficientnet_b0,Walnut Shot_hole,Walnut,1.0,0.9714285714285714,0.9855072463768116,35
+efficientnet_b0,Walnut leaf gall mite,Walnut,0.9333333333333333,1.0,0.9655172413793104,14
+mobilenetv3_large,Apple Brown_spot,Apple,0.975609756097561,1.0,0.9876543209876543,40
+mobilenetv3_large,Apple Normal,Apple,1.0,1.0,1.0,31
+mobilenetv3_large,Apple black_spot,Apple,1.0,1.0,1.0,15
+mobilenetv3_large,Apricot Normal,Apricot,1.0,1.0,1.0,25
+mobilenetv3_large,Apricot blight leaf disease,Apricot,0.8571428571428571,0.9230769230769231,0.8888888888888888,13
+mobilenetv3_large,Apricot shot_hole,Apricot,1.0,1.0,1.0,31
+mobilenetv3_large,Cherry Leaf Scorch,Cherry,1.0,0.9767441860465116,0.9882352941176471,43
+mobilenetv3_large,Cherry Normal leaf,Cherry,1.0,0.9473684210526315,0.972972972972973,19
+mobilenetv3_large,Cherry brown_spot,Cherry,1.0,0.972972972972973,0.9863013698630136,37
+mobilenetv3_large,Cherry purple leaf spot,Cherry,1.0,1.0,1.0,36
+mobilenetv3_large,Cherry_shot hole disease,Cherry,0.9411764705882353,1.0,0.9696969696969697,16
+mobilenetv3_large,Fig Blight_leaf disease,Fig,0.8387096774193549,0.896551724137931,0.8666666666666667,29
+mobilenetv3_large,Fig Brown spot,Fig,0.9375,0.9375,0.9375,16
+mobilenetv3_large,Fig normal leaf,Fig,1.0,1.0,1.0,22
+mobilenetv3_large,Fig_rust leaf,Fig,0.8888888888888888,0.8888888888888888,0.8888888888888888,18
+mobilenetv3_large,Grape Anthracnose leaf,Grape,0.8222222222222222,0.9736842105263158,0.891566265060241,38
+mobilenetv3_large,Grape Brown spot leaf,Grape,0.9166666666666666,0.9166666666666666,0.9166666666666666,24
+mobilenetv3_large,Grape Downy mildew leaf,Grape,0.8260869565217391,0.8260869565217391,0.8260869565217391,23
+mobilenetv3_large,Grape Mites_leaf disease,Grape,1.0,1.0,1.0,18
+mobilenetv3_large,Grape Normal_leaf,Grape,1.0,0.9285714285714286,0.9629629629629629,56
+mobilenetv3_large,Grape Powdery_mildew leaf,Grape,0.9318181818181818,0.9111111111111111,0.9213483146067416,45
+mobilenetv3_large,Grape shot hole leaf disease,Grape,1.0,1.0,1.0,32
+mobilenetv3_large,Lokat Normal leaf,Loquat,1.0,1.0,1.0,19
+mobilenetv3_large,lokat Leaf_spot,Loquat,1.0,1.0,1.0,30
+mobilenetv3_large,Pear Black spot _ leaf disease,Pear,1.0,1.0,1.0,34
+mobilenetv3_large,Pear Normal _leaf,Pear,1.0,1.0,1.0,29
+mobilenetv3_large,Pear fire blight,Pear,1.0,1.0,1.0,14
+mobilenetv3_large,Walnut Anthracnose_leaf disease,Walnut,0.9615384615384616,1.0,0.9803921568627451,25
+mobilenetv3_large,Walnut Blotch_leaf disease,Walnut,0.9791666666666666,0.9215686274509803,0.9494949494949495,51
+mobilenetv3_large,Walnut Normal_leaf,Walnut,1.0,1.0,1.0,27
+mobilenetv3_large,Walnut Shot_hole,Walnut,1.0,0.8857142857142857,0.9393939393939394,35
+mobilenetv3_large,Walnut leaf gall mite,Walnut,0.875,1.0,0.9333333333333333,14
+vit_b16,Apple Brown_spot,Apple,1.0,1.0,1.0,40
+vit_b16,Apple Normal,Apple,1.0,0.9354838709677419,0.9666666666666667,31
+vit_b16,Apple black_spot,Apple,0.9375,1.0,0.967741935483871,15
+vit_b16,Apricot Normal,Apricot,1.0,0.96,0.9795918367346939,25
+vit_b16,Apricot blight leaf disease,Apricot,0.9230769230769231,0.9230769230769231,0.9230769230769231,13
+vit_b16,Apricot shot_hole,Apricot,1.0,1.0,1.0,31
+vit_b16,Cherry Leaf Scorch,Cherry,1.0,0.9767441860465116,0.9882352941176471,43
+vit_b16,Cherry Normal leaf,Cherry,0.9,0.9473684210526315,0.9230769230769231,19
+vit_b16,Cherry brown_spot,Cherry,0.9736842105263158,1.0,0.9866666666666667,37
+vit_b16,Cherry purple leaf spot,Cherry,1.0,1.0,1.0,36
+vit_b16,Cherry_shot hole disease,Cherry,0.9375,0.9375,0.9375,16
+vit_b16,Fig Blight_leaf disease,Fig,0.9629629629629629,0.896551724137931,0.9285714285714286,29
+vit_b16,Fig Brown spot,Fig,0.9375,0.9375,0.9375,16
+vit_b16,Fig normal leaf,Fig,1.0,1.0,1.0,22
+vit_b16,Fig_rust leaf,Fig,0.7894736842105263,0.8333333333333334,0.8108108108108109,18
+vit_b16,Grape Anthracnose leaf,Grape,0.8181818181818182,0.9473684210526315,0.8780487804878049,38
+vit_b16,Grape Brown spot leaf,Grape,0.9523809523809523,0.8333333333333334,0.8888888888888888,24
+vit_b16,Grape Downy mildew leaf,Grape,0.7916666666666666,0.8260869565217391,0.8085106382978723,23
+vit_b16,Grape Mites_leaf disease,Grape,1.0,1.0,1.0,18
+vit_b16,Grape Normal_leaf,Grape,1.0,0.9285714285714286,0.9629629629629629,56
+vit_b16,Grape Powdery_mildew leaf,Grape,0.9069767441860465,0.8666666666666667,0.8863636363636364,45
+vit_b16,Grape shot hole leaf disease,Grape,0.9696969696969697,1.0,0.9846153846153847,32
+vit_b16,Lokat Normal leaf,Loquat,0.95,1.0,0.9743589743589743,19
+vit_b16,lokat Leaf_spot,Loquat,0.9354838709677419,0.9666666666666667,0.9508196721311475,30
+vit_b16,Pear Black spot _ leaf disease,Pear,1.0,0.9705882352941176,0.9850746268656716,34
+vit_b16,Pear Normal _leaf,Pear,0.9666666666666667,1.0,0.9830508474576272,29
+vit_b16,Pear fire blight,Pear,1.0,1.0,1.0,14
+vit_b16,Walnut Anthracnose_leaf disease,Walnut,1.0,1.0,1.0,25
+vit_b16,Walnut Blotch_leaf disease,Walnut,1.0,1.0,1.0,51
+vit_b16,Walnut Normal_leaf,Walnut,1.0,1.0,1.0,27
+vit_b16,Walnut Shot_hole,Walnut,0.9714285714285714,0.9714285714285714,0.9714285714285714,35
+vit_b16,Walnut leaf gall mite,Walnut,0.8666666666666667,0.9285714285714286,0.896551724137931,14
+catnet,Apple Brown_spot,Apple,1.0,1.0,1.0,40
+catnet,Apple Normal,Apple,1.0,1.0,1.0,31
+catnet,Apple black_spot,Apple,1.0,1.0,1.0,15
+catnet,Apricot Normal,Apricot,1.0,0.96,0.9795918367346939,25
+catnet,Apricot blight leaf disease,Apricot,0.8571428571428571,0.9230769230769231,0.8888888888888888,13
+catnet,Apricot shot_hole,Apricot,1.0,1.0,1.0,31
+catnet,Cherry Leaf Scorch,Cherry,1.0,0.9534883720930233,0.9761904761904762,43
+catnet,Cherry Normal leaf,Cherry,0.9473684210526315,0.9473684210526315,0.9473684210526315,19
+catnet,Cherry brown_spot,Cherry,1.0,0.972972972972973,0.9863013698630136,37
+catnet,Cherry purple leaf spot,Cherry,1.0,1.0,1.0,36
+catnet,Cherry_shot hole disease,Cherry,0.9411764705882353,1.0,0.9696969696969697,16
+catnet,Fig Blight_leaf disease,Fig,0.896551724137931,0.896551724137931,0.896551724137931,29
+catnet,Fig Brown spot,Fig,0.8823529411764706,0.9375,0.9090909090909091,16
+catnet,Fig normal leaf,Fig,1.0,1.0,1.0,22
+catnet,Fig_rust leaf,Fig,0.9444444444444444,0.9444444444444444,0.9444444444444444,18
+catnet,Grape Anthracnose leaf,Grape,0.8222222222222222,0.9736842105263158,0.891566265060241,38
+catnet,Grape Brown spot leaf,Grape,0.9130434782608695,0.875,0.8936170212765957,24
+catnet,Grape Downy mildew leaf,Grape,0.8,0.8695652173913043,0.8333333333333334,23
+catnet,Grape Mites_leaf disease,Grape,1.0,1.0,1.0,18
+catnet,Grape Normal_leaf,Grape,1.0,0.9464285714285714,0.9724770642201835,56
+catnet,Grape Powdery_mildew leaf,Grape,0.95,0.8444444444444444,0.8941176470588236,45
+catnet,Grape shot hole leaf disease,Grape,1.0,1.0,1.0,32
+catnet,Lokat Normal leaf,Loquat,1.0,1.0,1.0,19
+catnet,lokat Leaf_spot,Loquat,1.0,1.0,1.0,30
+catnet,Pear Black spot _ leaf disease,Pear,1.0,1.0,1.0,34
+catnet,Pear Normal _leaf,Pear,1.0,1.0,1.0,29
+catnet,Pear fire blight,Pear,1.0,1.0,1.0,14
+catnet,Walnut Anthracnose_leaf disease,Walnut,1.0,1.0,1.0,25
+catnet,Walnut Blotch_leaf disease,Walnut,0.9615384615384616,0.9803921568627451,0.970873786407767,51
+catnet,Walnut Normal_leaf,Walnut,1.0,1.0,1.0,27
+catnet,Walnut Shot_hole,Walnut,1.0,0.9428571428571428,0.9705882352941176,35
+catnet,Walnut leaf gall mite,Walnut,0.875,1.0,0.9333333333333333,14

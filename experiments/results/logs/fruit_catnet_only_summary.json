@@ -1,0 +1,8 @@
+{
+  "model": "catnet",
+  "params_M": 5.303838,
+  "accuracy": 0.9657458563535911,
+  "f1_macro": 0.9643134914401361,
+  "auc_ovr": 0.9928302056944325,
+  "epochs_trained": 25
+}

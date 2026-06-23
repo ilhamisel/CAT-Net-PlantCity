@@ -1,0 +1,82 @@
+{
+  "model": "mobilenetv3_large",
+  "num_params": 4205875,
+  "best_val_f1_macro": 0.9911800343179551,
+  "final_metrics": {
+    "accuracy": 0.9912739965095986,
+    "precision_macro": 0.989830345093503,
+    "recall_macro": 0.992629907797521,
+    "f1_macro": 0.9911800343179551,
+    "precision_weighted": 0.9913608023280108,
+    "recall_weighted": 0.9912739965095986,
+    "f1_weighted": 0.9912799553068147,
+    "per_class_precision": [
+      0.9887218045112782,
+      1.0,
+      0.9807692307692307
+    ],
+    "per_class_recall": [
+      0.9924528301886792,
+      0.9854368932038835,
+      1.0
+    ],
+    "per_class_f1": [
+      0.9905838041431262,
+      0.9926650366748166,
+      0.9902912621359223
+    ],
+    "per_class_support": [
+      265,
+      206,
+      102
+    ],
+    "confusion_matrix": [
+      [
+        263,
+        0,
+        2
+      ],
+      [
+        3,
+        203,
+        0
+      ],
+      [
+        0,
+        0,
+        102
+      ]
+    ],
+    "auc_ovr_macro": 0.9999135865305174,
+    "classification_report": "                  precision    recall  f1-score   support\n\nApple Brown_spot     0.9887    0.9925    0.9906       265\n    Apple Normal     1.0000    0.9854    0.9927       206\nApple black_spot     0.9808    1.0000    0.9903       102\n\n        accuracy                         0.9913       573\n       macro avg     0.9898    0.9926    0.9912       573\n    weighted avg     0.9914    0.9913    0.9913       573\n"
+  },
+  "epoch_log": [
+    {
+      "epoch": 1,
+      "train_loss": 1.0308340471245814,
+      "train_acc": 0.8108797280067999,
+      "val_acc": 0.9912739965095986,
+      "val_f1_macro": 0.9911800343179551,
+      "val_auc": 0.9999135865305174,
+      "lr": 0.0003,
+      "time_sec": 70.7464349269867
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.33146658718357985,
+      "train_acc": 0.953251168720782,
+      "val_acc": 0.9755671902268761,
+      "val_f1_macro": 0.9733566738681723,
+      "val_auc": 0.9991442463744201,
+      "lr": 0.0,
+      "time_sec": 17.13102889060974
+    }
+  ],
+  "epochs_trained": 2,
+  "classes": [
+    "Apple Brown_spot",
+    "Apple Normal",
+    "Apple black_spot"
+  ],
+  "checkpoint": "C:\\Users\\ilhami\\Desktop\\Deep2026\\PlantCity A Comprehensive Image Based on Multi Cro\\PlantCity A Comprehensive Image Based on Multi Cro\\experiments\\results\\checkpoints\\mobilenetv3_large_best.pt"
+}

@@ -1,0 +1,61 @@
+cff-version: 1.2.0
+title: >-
+  CAT-Net-PlantCity: A Leakage-Free Benchmark and a Compact
+  Convolutional-Attention-Transformer for Apple Leaf Disease
+  Classification on PlantCity
+message: >-
+  If you use this software, the leakage-free split, or the
+  CAT-Net architecture, please cite both this repository and
+  the underlying PlantCity dataset (Khan et al., 2025).
+type: software
+authors:
+  - given-names: "TODO"
+    family-names: "TODO"
+    email: ilhamisel23@gmail.com
+repository-code: "https://github.com/<your-user>/CAT-Net-PlantCity"
+url: "https://github.com/<your-user>/CAT-Net-PlantCity"
+abstract: >-
+  We document a previously unreported data-leakage pattern
+  in the PlantCity apple subset and re-establish a
+  leakage-free 70/15/15 stratified split. We propose CAT-Net,
+  a 5.29 M-parameter CNN-Attention-Transformer hybrid that
+  combines an EfficientNet-B0 stem, a CBAM attention block,
+  three Transformer encoder layers, and a deep-supervised
+  dual head. Six architectures are benchmarked across four
+  axes — clean accuracy, corruption robustness, few-shot
+  data efficiency, and external-domain transfer to
+  PlantVillage — with bootstrap confidence intervals,
+  Holm-adjusted McNemar tests, Cohen's kappa, ROC/PR, and
+  expected calibration error. CAT-Net is the only compact
+  model that saturates the clean split, holds 100% F1 at
+  10 training images per class, and transfers to
+  PlantVillage with macro-F1 above 41% and Cohen's kappa
+  above 0.2 — at 1/16 the parameter count of ViT-B/16.
+keywords:
+  - plant disease classification
+  - vision transformer
+  - CBAM
+  - data leakage
+  - domain generalisation
+  - PlantCity
+  - PlantVillage
+  - apple leaf
+license: MIT
+version: "1.0.0"
+date-released: "2026-06-23"
+references:
+  - type: article
+    title: >-
+      PlantCity: A comprehensive image based on multi crop
+      leaves in Pakistan
+    authors:
+      - family-names: Khan
+      - family-names: Nisa
+      - family-names: Ahmad
+      - family-names: Zubair
+      - family-names: Alshammari
+    journal: Data in Brief
+    volume: 63
+    start: 112130
+    year: 2025
+    doi: 10.1016/j.dib.2025.112130

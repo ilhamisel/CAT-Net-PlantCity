@@ -1,0 +1,29 @@
+# Conda environment for CAT-Net-PlantCity.
+# Usage:
+#   conda env create -f environment.yml
+#   conda activate catnet-plantcity
+#
+# If you need CUDA support, install the matching torch wheel after
+# conda activates the env:
+#   pip install torch==2.8.0 torchvision==0.23.0 \
+#       --index-url https://download.pytorch.org/whl/cu126
+
+name: catnet-plantcity
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.13
+  - pip
+  - numpy>=2.0
+  - scipy>=1.13
+  - scikit-learn>=1.5
+  - matplotlib>=3.9
+  - pandas>=2.2
+  - pillow>=11
+  - opencv
+  - pip:
+      - torch==2.8.0
+      - torchvision==0.23.0
+      - timm==1.0.24
+      - grad-cam==1.5.5

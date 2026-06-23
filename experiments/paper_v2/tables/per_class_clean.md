@@ -1,0 +1,20 @@
+| model           | class      | precision | recall | f1    | support |
+|-----------------|------------|-----------|--------|-------|---------|
+| ResNet-50       | Brown_spot | 100.0     | 100.0  | 100.0 | 39      |
+| ResNet-50       | Normal     | 100.0     | 100.0  | 100.0 | 31      |
+| ResNet-50       | black_spot | 100.0     | 100.0  | 100.0 | 16      |
+| DenseNet-121    | Brown_spot | 100.0     | 100.0  | 100.0 | 39      |
+| DenseNet-121    | Normal     | 100.0     | 100.0  | 100.0 | 31      |
+| DenseNet-121    | black_spot | 100.0     | 100.0  | 100.0 | 16      |
+| EfficientNet-B0 | Brown_spot | 97.5      | 100.0  | 98.73 | 39      |
+| EfficientNet-B0 | Normal     | 100.0     | 96.77  | 98.36 | 31      |
+| EfficientNet-B0 | black_spot | 93.75     | 93.75  | 93.75 | 16      |
+| MobileNetV3-L   | Brown_spot | 100.0     | 100.0  | 100.0 | 39      |
+| MobileNetV3-L   | Normal     | 100.0     | 100.0  | 100.0 | 31      |
+| MobileNetV3-L   | black_spot | 100.0     | 100.0  | 100.0 | 16      |
+| ViT-B/16        | Brown_spot | 100.0     | 97.44  | 98.7  | 39      |
+| ViT-B/16        | Normal     | 96.88     | 100.0  | 98.41 | 31      |
+| ViT-B/16        | black_spot | 100.0     | 100.0  | 100.0 | 16      |
+| CAT-Net         | Brown_spot | 100.0     | 100.0  | 100.0 | 39      |
+| CAT-Net         | Normal     | 100.0     | 100.0  | 100.0 | 31      |
+| CAT-Net         | black_spot | 100.0     | 100.0  | 100.0 | 16      |

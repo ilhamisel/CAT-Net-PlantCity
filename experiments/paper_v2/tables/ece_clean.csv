@@ -1,0 +1,7 @@
+model,ece
+ResNet-50,0.0394
+DenseNet-121,0.054
+EfficientNet-B0,0.0397
+MobileNetV3-L,0.0618
+ViT-B/16,0.0453
+CAT-Net,0.0539
