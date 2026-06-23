@@ -1,7 +1,0 @@
-model,macro_auc,macro_ap,auc_Brown_spot,auc_Normal,auc_black_spot,ap_Brown_spot,ap_Normal,ap_black_spot
-ResNet-50,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-DenseNet-121,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-EfficientNet-B0,0.9999,0.9988,1.0,1.0,0.9991,1.0,1.0,0.9963
-MobileNetV3-L,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-ViT-B/16,0.9999,0.9997,1.0,0.9994,1.0,1.0,0.999,1.0
-CAT-Net,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0

@@ -1,45 +1,48 @@
 cff-version: 1.2.0
 title: >-
-  CAT-Net-PlantCity: A Leakage-Free Benchmark and a Compact
-  Convolutional-Attention-Transformer for Apple Leaf Disease
-  Classification on PlantCity
+  CAT-Net-PlantCity: A Leakage-Free Multi-Fruit Benchmark
+  for Plant Leaf Disease Classification with a Compact
+  Convolutional-Attention-Transformer (CAT-Net)
 message: >-
-  If you use this software, the leakage-free split, or the
-  CAT-Net architecture, please cite both this repository and
-  the underlying PlantCity dataset (Khan et al., 2025).
+  If you use this software, the leakage-free 5-fold CV
+  protocol, or the CAT-Net architecture, please cite both
+  this repository and the underlying PlantCity dataset
+  (Khan et al., 2025).
 type: software
 authors:
   - given-names: "TODO"
     family-names: "TODO"
     email: ilhamisel23@gmail.com
-repository-code: "https://github.com/<your-user>/CAT-Net-PlantCity"
-url: "https://github.com/<your-user>/CAT-Net-PlantCity"
+repository-code: "https://github.com/ilhamisel/CAT-Net-PlantCity"
+url: "https://github.com/ilhamisel/CAT-Net-PlantCity"
 abstract: >-
-  We document a previously unreported data-leakage pattern
-  in the PlantCity apple subset and re-establish a
-  leakage-free 70/15/15 stratified split. We propose CAT-Net,
-  a 5.29 M-parameter CNN-Attention-Transformer hybrid that
-  combines an EfficientNet-B0 stem, a CBAM attention block,
-  three Transformer encoder layers, and a deep-supervised
-  dual head. Six architectures are benchmarked across four
-  axes — clean accuracy, corruption robustness, few-shot
-  data efficiency, and external-domain transfer to
-  PlantVillage — with bootstrap confidence intervals,
-  Holm-adjusted McNemar tests, Cohen's kappa, ROC/PR, and
-  expected calibration error. CAT-Net is the only compact
-  model that saturates the clean split, holds 100% F1 at
-  10 training images per class, and transfers to
-  PlantVillage with macro-F1 above 41% and Cohen's kappa
-  above 0.2 — at 1/16 the parameter count of ViT-B/16.
+  We construct the first leakage-free benchmark on the
+  9-fruit / 32-class subset of the PlantCity plant-leaf-
+  disease dataset (Khan et al., 2025). A dataset-wide
+  perceptual-hash audit shows that every test image in the
+  recommended split carries 1-4 augmented near-duplicates
+  inside the train folder (mean 1.21 train copies per test
+  image; 99.7% match ratio). We re-establish a leakage-
+  free 5-fold stratified cross-validation protocol on
+  6,028 originals and propose CAT-Net, a 5.30 M-parameter
+  CNN-Attention-Transformer hybrid built from an
+  EfficientNet-B0 stem, a CBAM attention block, three
+  Transformer encoder layers, and a deep-supervised dual
+  head. Across 30 fold x model runs CAT-Net achieves the
+  best mean macro-F1 (96.03 +/- 0.56%), statistically
+  significantly above ViT-B/16 (p=0.024) and
+  EfficientNet-B0 (p=0.005) by paired McNemar on
+  out-of-fold predictions, while running 7.9x faster than
+  ViT-B/16 on CPU at 16x smaller on-disk size.
 keywords:
   - plant disease classification
   - vision transformer
   - CBAM
   - data leakage
-  - domain generalisation
+  - cross-validation
   - PlantCity
-  - PlantVillage
-  - apple leaf
+  - multi-fruit benchmark
+  - edge deployment
 license: MIT
 version: "1.0.0"
 date-released: "2026-06-23"

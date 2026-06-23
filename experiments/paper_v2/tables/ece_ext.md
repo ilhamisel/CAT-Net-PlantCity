@@ -1,8 +1,0 @@
-| model           | ece    |
-|-----------------|--------|
-| ResNet-50       | 0.3292 |
-| DenseNet-121    | 0.3374 |
-| EfficientNet-B0 | 0.2479 |
-| MobileNetV3-L   | 0.2548 |
-| ViT-B/16        | 0.3201 |
-| CAT-Net         | 0.3022 |

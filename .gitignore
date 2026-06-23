@@ -104,6 +104,3 @@ desktop.ini
 *.tmp
 .cache/
 node_modules/
-
-# Claude Code working state (do not commit)
-.claude/
